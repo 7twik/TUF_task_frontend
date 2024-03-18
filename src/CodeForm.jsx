@@ -52,6 +52,7 @@ const CodeForm = () => {
             // You can perform any additional actions based on the response if needed
         } catch (error) {
             // Handle error response
+            alert('Error submitting code pls provide all the fields');
             console.error('Error submitting code:', error);
             // You can display an error message to the user or perform any other error handling
         }
