@@ -268,7 +268,7 @@ const CodeForm = () => {
                 <h2>Just a note!</h2>
                 Since the backend is deployed on render, it will take some time to start as there are limitations to free tier, so please be patient and wait till you see some data in History tab.
 
-                <Button variant="primary" href="">Reference</Button>
+                <Button variant="primary" href="https://render.com/blog/free-tier">Reference</Button>
             </p>}
             {!loading && <p>
                 <h2>Just a note!</h2>
