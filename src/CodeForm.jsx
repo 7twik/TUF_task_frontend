@@ -217,19 +217,7 @@ const CodeForm = () => {
                 </Col>
             </Form.Group>
 
-            <Form.Group as={Row} controlId="formStdin">
-                <Form.Label column sm={2}>Standard Input (stdin)</Form.Label>
-                <Col sm={10}>
-                    <Form.Control
-                        as="textarea"
-                        rows={3}
-                        placeholder="Enter standard input"
-                        value={stdin}
-                        onChange={(e) => setStdin(e.target.value)}
-                        className="dark-theme"
-                    />
-                </Col>
-            </Form.Group>
+            
 
             <Form.Group as={Row} controlId="formCode">
                 <Form.Label column sm={2}>Source Code</Form.Label>
@@ -240,6 +228,19 @@ const CodeForm = () => {
                         placeholder="Enter source code"
                         value={code}
                         onChange={(e) => setCode(e.target.value)}
+                        className="dark-theme"
+                    />
+                </Col>
+            </Form.Group>
+            <Form.Group as={Row} controlId="formStdin">
+                <Form.Label column sm={2}>Standard Input (stdin)</Form.Label>
+                <Col sm={10}>
+                    <Form.Control
+                        as="textarea"
+                        rows={3}
+                        placeholder="Enter standard input"
+                        value={stdin}
+                        onChange={(e) => setStdin(e.target.value)}
                         className="dark-theme"
                     />
                 </Col>
