@@ -3,9 +3,7 @@ import CodeForm from './CodeForm'
 import Show from './Show'
 import NavigationBar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
-
 function App() {
-
   return (
     <>
       <NavigationBar />

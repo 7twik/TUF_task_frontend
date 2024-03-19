@@ -38,7 +38,7 @@ const CodeForm = () => {
     
             if (response.status === 200 || response.status === 201) {
                 console.log('Code submitted successfully');
-                alert('Code submitted successfully');
+                alert('Code submitted successfully pls wait some time for it to reflect in histoy window');
                 // Handle successful submission (if needed)
             } else {
                 alert('Failed to submit code');
@@ -268,6 +268,8 @@ const CodeForm = () => {
             
             {!loading && <p>
                 <h2>Just a note!</h2>
+                Firstly, the redis server will get updated every 1 minute so the code you submit will reflect in the history window after 1 minute.
+                <br />
                 I could've done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I'm not sure whether those extra work is supposed to be done or not.
                 <br/> 
                 <br/>
