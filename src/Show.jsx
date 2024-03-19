@@ -20,6 +20,8 @@ const Show = () => {
         fetch('https://tuf-task-backend.onrender.com/show')
             .then(response => response.json())
             .then(data => {
+                data.reverse();
+                data.forEach((entry, index) => entry.timestamp = new Date(entry.timestamp).toLocaleString());
                 setEntries(data);
                 setFilteredEntries(data); // Initialize filtered entries with all entries
             })

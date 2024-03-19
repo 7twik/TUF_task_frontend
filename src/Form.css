@@ -19,7 +19,6 @@ td, tr, th {
     border-color: black !important;
     border-width: 2.5px;
     text-align: center;
-    height: 5vh;
 }
 .tableContainer{
     padding: 15px;
