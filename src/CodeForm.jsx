@@ -270,6 +270,7 @@ const CodeForm = () => {
                 <h2>Just a note!</h2>
                 Firstly, the redis server will get updated every 1 minute so the code you submit will reflect in the history window after 1 minute.
                 <br />
+                <br />
                 I could've done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I'm not sure whether those extra work is supposed to be done or not.
                 <br/> 
                 <br/>
