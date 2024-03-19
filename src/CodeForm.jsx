@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Form, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
@@ -265,18 +265,13 @@ const CodeForm = () => {
                     <Button variant="primary" type="submit">Submit</Button>
                 </div>
             )}
+            
             {!loading && <p>
                 <h2>Just a note!</h2>
-                Since the backend is deployed on render, it will take some time to start as there are limitations to free tier, so please be patient and wait till you see some data in History tab.
-
-                <Button variant="primary" href="https://render.com/blog/free-tier">Reference</Button>
-            </p>}
-            {!loading && <p>
-                <h2>Just a note!</h2>
-                I could've done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I'm not sure whether those extra work is supposed to be done or not.
+                I could &apos ve done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I &apos m not sure whether those extra work is supposed to be done or not.
                 <br/> 
                 <br/>
-                I'm really grateful for what TakeUforward is doing for the student community and will love to be a part of it. 
+                I &apos m really grateful for what TakeUforward is doing for the student community and will love to be a part of it. 
                 <br/>
                 <br/>
                 <Button variant="primary" href="https://github.com/7twik">Github</Button> 
