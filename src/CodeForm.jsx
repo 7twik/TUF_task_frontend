@@ -271,6 +271,9 @@ const CodeForm = () => {
                 Firstly, the redis server will get updated every 1 minute so the code you submit will reflect in the history window after 1 minute.
                 <br />
                 <br />
+                Why 1 minute? Because it will be easier for reviewing, for platforms like codechef it is 15 minute I believe and I could've done that  but I have kept it 1 minute for the purpose of this project.
+                <br />
+                <br />
                 I could've done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I'm not sure whether those extra work is supposed to be done or not.
                 <br/> 
                 <br/>
