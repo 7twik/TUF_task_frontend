@@ -1,7 +1,7 @@
 # 7's IDE
 <h2>Backend Link: <a href="https://github.com/7twik/TUF_task_backend">https://github.com/7twik/TUF_task_backend</a></h2>
 <h1>What I have done? </h1><br/>
-I made the IDE page where users can enter their username and write code and run it..<br/><br/>
+I made the IDE page where users can enter their username, choose language and write code and run it..<br/><br/>
 While running the code I sent the data to judge0 api which returns a token, then I again sent the token to extract the output which might even result in pending or it might even be compilation error or be a simple output.<br/><br/>
 If it comes as pending then I have to request again in a recursive way after 5 second timer <br /><br/>
 While all this is happening I made a loader as the response time was a bit too high<br /><br/>
