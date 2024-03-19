@@ -38,7 +38,7 @@ const CodeForm = () => {
     
             if (response.status === 200 || response.status === 201) {
                 console.log('Code submitted successfully');
-                alert('Code submitted successfully pls wait some time for it to reflect in histoy window');
+                alert('Code submitted successfully pls wait some time for it to reflect in history window');
                 // Handle successful submission (if needed)
             } else {
                 alert('Failed to submit code');

@@ -67,6 +67,7 @@ const Show = () => {
                         <Th>Standard Input (stdin)</Th>
                         <Th>Timestamp</Th>
                         <Th>Source Code</Th>
+                        <Th>Output</Th>
                     </Tr>
                 </Thead>
                 <Tbody>
@@ -77,6 +78,7 @@ const Show = () => {
                             <Td>{entry.stdin}</Td>
                             <Td>{entry.timestamp}</Td>
                             <Td>{entry.code.substring(0, 100)} <Button variant="warning" onClick={() => { handleShow(entry.code) }}>See Full Code</Button></Td>
+                            <Td>{entry.stdout}</Td>
                         </Tr>
                     )) : <Tr><Td colSpan={5}>No Data</Td></Tr>}
                 </Tbody>
