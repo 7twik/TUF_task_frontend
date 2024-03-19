@@ -268,10 +268,10 @@ const CodeForm = () => {
             
             {!loading && <p>
                 <h2>Just a note!</h2>
-                I could &apos ve done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I &apos m not sure whether those extra work is supposed to be done or not.
+                I could've done a lot more modifications like improving the UI and many more features like Google login and storing personal codes but I have kept it simple for the purpose of this project as I'm not sure whether those extra work is supposed to be done or not.
                 <br/> 
                 <br/>
-                I &apos m really grateful for what TakeUforward is doing for the student community and will love to be a part of it. 
+                I'm really grateful for what TakeUforward is doing for the student community and will love to be a part of it. 
                 <br/>
                 <br/>
                 <Button variant="primary" href="https://github.com/7twik">Github</Button> 
