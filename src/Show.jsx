@@ -66,7 +66,7 @@ const Show = () => {
                     <Tr>
                         <Th>Username</Th>
                         <Th>Language</Th>
-                        <Th>Standard Input (stdin)</Th>
+                        <Th>Standard Input</Th>
                         <Th>Timestamp</Th>
                         <Th>Source Code</Th>
                         <Th>Output</Th>
